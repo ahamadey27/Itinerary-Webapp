@@ -47,20 +47,20 @@ The technology stack is a modern, MERN-based architecture chosen for its relevan
 - [x] **Review Project Structure:** Familiarize yourself with the generated file structure, particularly `package.json`, `vite.config.js`, and the `src/` directory containing `main.jsx` and `App.jsx`.
 
 ### Step 3: Backend Project Scaffolding with Node.js & Express
-- [ ] **Create the Server Directory:** In the project root (parallel to `wander-portfolio-client`), create the backend directory.
+- [x] **Create the Server Directory:** In the project root (parallel to `wander-portfolio-client`), create the backend directory.
     ```bash
     mkdir wander-portfolio-server
     cd wander-portfolio-server
     ```
-- [ ] **Initialize the Node.js Project:** Create a `package.json` file using npm.
+- [x] **Initialize the Node.js Project:** Create a `package.json` file using npm.
     ```bash
     npm init -y
     ```
-- [ ] **Install Express:** Add Express.js as a project dependency.
+- [x] **Install Express:** Add Express.js as a project dependency.
     ```bash
     npm install express
     ```
-- [ ] **Create a "Hello World" Server:** Create an `app.js` file, add the basic server code to listen on port `3001`, and verify it runs correctly by executing `node app.js`.
+- [x] **Create a "Hello World" Server:** Create an `app.js` file, add the basic server code to listen on port `3001`, and verify it runs correctly by executing `node app.js`.
 
 ### Step 4: Acquire and Secure API Credentials
 - [ ] **Create a Google Cloud Platform (GCP) Project:** Navigate to the Google Cloud Console, create a new project, and enable billing.
